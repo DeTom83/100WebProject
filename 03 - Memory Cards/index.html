@@ -14,12 +14,12 @@
   </button>
   <h1>Memory Cards
     <button id="show" class="btn btn-small">
-      <i class="fas fa-plus"></i>Add New Card
+      <i class="fas fa-plus"></i> Add New Card
     </button>
   </h1>
   <div id="cards-container" class="cards">
 
-    <div class="card active">
+    <!-- <div class="card active">
       <div class="inner-card">
         <div class="inner-card-front">
           <p>
@@ -47,7 +47,8 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
+
   </div>
 
   <div class="navigaton">
@@ -55,7 +56,7 @@
       <i class="fas fa-arrow-left"></i>
     </button>
 
-    <p class="current"></p>
+    <p id="current">0/0</p>
 
     <button id="next" class="nav-button">
       <i class="fas fa-arrow-right"></i>
@@ -77,14 +78,15 @@
 
     <div class="form-group">
       <label for="answare">Answare</label>
-      <textarea id="answare" placeholder="Enter Answare..."></textarea>
+      <textarea id="answer" placeholder="Enter Answare..."></textarea>
     </div>
 
     <button id="add-card" class="btn">
-      <i class="fas fa-plus"></i>Add Card
+      <i class="fas fa-plus"></i> Add Card
     </button>
 
   </div>
 
+  
 </body>
 </html>
