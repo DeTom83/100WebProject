@@ -11,3 +11,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.alert {
+    display: none;
+}
+
+.active {
+    display: block;
+}
